@@ -1,0 +1,61 @@
+* {
+    margin: 0
+}
+
+.container {
+    flex: 1
+}
+
+header {
+    margin: 10;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+
+header .Logo {            
+  padding: 20px;
+
+}
+
+header .botao_entrar {
+    margin: 10;
+    padding-right: 20px;
+    padding: auto;
+    height: 50px;
+    font-size: 30;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 156, 156);
+}
+
+header .Login {
+    margin: 20px 50px 20px 20px;
+    
+
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 50px;
+    width: 100vw;
+
+}
+
+
+footer {
+    background-color: brown;
+    flex: 1;
+    height: 100px;
+    align-items: center;
+    justify-content: center;     
+    display: flex;      
+
+}
+
